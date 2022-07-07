@@ -1,0 +1,100 @@
+.boton1{
+    background-color: orangered;
+    
+}
+
+.fondonav{
+    background-image: linear-gradient(to right, red , yellow)
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.fuente{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.fuente2{
+    font-family: 'Acme', sans-serif;
+}
+
+#registrarse, #ingresar{
+    font-family: 'Acme', sans-serif;
+}
+
+#ingresar:hover{
+    color: rgb(255, 255, 255);
+}
+
+#registrarse:hover{
+    color: rgb(255, 255, 255);
+}
+
+.botonregistrar{
+    font-family: 'Acme', sans-serif;
+}
+
+.botonregistrar:hover{
+    color: rgb(156, 156, 156);
+}
+
+.wrapper{
+    position: relative;
+}
+
+.inner{
+position: absolute;
+top: 0;
+margin-left: 20px;
+}
+
+.sliding-menu1{
+    overflow: hidden;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+    transition: transform .5s;
+    transform: scale(0);
+}
+
+.sliding-menu2{
+    overflow: hidden;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+
+    transition: transform .5s;
+    transform: scale(1);
+
+    
+    
+}
+
+
+
+.sliding-menu2:hover{
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+  
+
+body{
+    background-color: black;
+    background-image: url('https://wi.wallpapertip.com/wsimgs/31-319036_free-zebra-print-background-vector-zebra-print-background.jpg')
+}
+
+.hola{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
